@@ -23,8 +23,7 @@
     <body>
         <div class="jumbotron">
             <div class="container">
-                <h1>Conheça o ClickTime</h1>
-                <p>Um novo jeito de marcar suas consultas</p>
+                <h1>Calendario</h1>
                 <a class="btn btn-primary btn-lg" href="<c:url value="/calendario/2015"/>" role="button">Calendario</a>
             </div>
         </div> 

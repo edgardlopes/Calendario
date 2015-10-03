@@ -66,7 +66,7 @@ public class CalendarioService {
         int diasFaltantes = 7 - weekList.get(0).size();
         if (diasFaltantes > 0) {
             for (int i = 0; i < diasFaltantes; i++) {
-                Day day1 = new Day();
+                day = new Day();
                 day.setDay("");
                 day.setDayOfWeekShort("");
                 weekList.get(0).add(0, day);
@@ -76,7 +76,7 @@ public class CalendarioService {
         diasFaltantes = 7 - weekList.get(weekList.size() - 1).size();
         if (diasFaltantes > 0) {
             for (int i = 0; i < diasFaltantes; i++) {
-                Day day1 = new Day();
+                day = new Day();
                 day.setDay("");
                 day.setDayOfWeekShort("");
                 weekList.get(weekList.size() - 1).add(weekList.get(weekList.size() - 1).size(), day);
